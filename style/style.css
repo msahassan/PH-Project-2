@@ -42,16 +42,16 @@ body {
 }
 
 /* Main Section */
-.feature-flower {
+.section-flower {
   text-align: center;
   margin-top: 120px;
 }
-.feature-title {
+.section-title {
   font-size: 25px;
   font-weight: 700;
   color: #272727;
 }
-.feature-description {
+.section-description {
   font-size: 14px;
   font-weight: 400;
   color: rgba(39, 39, 39, 0.6);
@@ -139,6 +139,9 @@ body {
   font-weight: 800;
   line-height: 30px;
 }
+.deal-title span {
+  color: #e55473;
+}
 
 .deal-description {
   color: rgba(39, 39, 39, 0.6);
@@ -149,4 +152,18 @@ body {
 }
 .container-property {
   text-align: center;
+}
+/* Instagram section */
+
+.flower-pic {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 170px 0px 150px;
+}
+
+.flower-pic img {
+  height: 220px;
+  width: 200px;
 }
