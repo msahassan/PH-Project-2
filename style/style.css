@@ -1,0 +1,37 @@
+/* Common Part */
+body {
+  margin: 0px;
+  font-family: "Merriweather", serif;
+  font-family: "PT Serif", serif;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 10px 15px;
+  border: 0;
+}
+/* Header part */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 120px 0px 200px;
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.header-title {
+  color: #272727;
+  font-size: 42px;
+  font-weight: 800;
+}
+.header-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.header-main-part img {
+  width: 435px;
+  height: 550px;
+}
