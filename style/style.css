@@ -5,14 +5,19 @@ body {
   font-family: "PT Serif", serif;
 }
 .btn-primary {
+  color: whitesmoke;
+  font-weight: 800;
   border-radius: 8px;
   background: #e55473;
   padding: 10px 15px;
   border: 0;
+  text-align: center;
 }
+
 /* Header part */
 .header-section {
   display: flex;
+  gap: 80px;
   justify-content: space-between;
   align-items: center;
   padding: 50px 120px 0px 200px;
@@ -34,4 +39,114 @@ body {
 .header-main-part img {
   width: 435px;
   height: 550px;
+}
+
+/* Main Section */
+.feature-flower {
+  text-align: center;
+  margin-top: 120px;
+}
+.feature-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #272727;
+}
+.feature-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.flower-name {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 100px 0px 100px;
+}
+.flower-name img {
+  width: 180px;
+  height: 260px;
+}
+.flower-pink img {
+  padding: 70px 50px 0px 47px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-red img {
+  padding: 70px 50px 0px 47px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-yellow img {
+  padding: 70px 50px 0px 47px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flower-tree {
+  text-align: center;
+  font-size: 25px;
+  color: #272727;
+}
+
+.flower-tree > h6 {
+  margin-top: 20px;
+}
+
+/* Container section */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 100px 170px;
+}
+
+.container img {
+  text-align: center;
+}
+
+.container-sign {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Deal section */
+
+.deal-container {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 80px 200px;
+}
+
+.deal-container img {
+  height: 300px;
+  width: 250px;
+}
+
+.deal-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+.deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.container-property {
+  text-align: center;
 }
