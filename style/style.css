@@ -171,7 +171,8 @@ body {
 .latest-deal {
   background-image: url("../image/Rectangle\ 9.png");
   background-repeat: no-repeat;
-  /* background-size: 1240px 500px; */
+  background-size: 900px;
+  background-position: center;
   margin: 0px 180px 0px 180px;
   border-radius: 8px;
 }
@@ -187,7 +188,7 @@ body {
 
 .form-type input[type="text"] {
   padding: 10px 15px;
-  width: 500px;
+  width: 400px;
 }
 /* Footer section */
 footer {
